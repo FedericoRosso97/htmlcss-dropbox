@@ -75,17 +75,36 @@ header{
     width: calc(100%/3);
     flex-direction: row;
     flex-wrap: wrap;
-   
 }
 
 .box-title{
     border-bottom:1px solid black; 
     text-align: center;
-    padding: 0.5rem;
     width: 100%;
+    padding: 1rem;
 }
 
-.box-body{
-    padding: 1rem;
-    
+
+
+.box-body h2{
+    margin-bottom: 20px;
+}
+
+.box-body p{
+    margin: 5px;
+}
+
+ul{
+    margin: 30px 0;
+}
+
+.box-body li{
+    margin: 20px 0;
+}
+
+.box-body button{
+    margin: 30px 0;
+}
+.box-footer{
+    margin: 40px 0;
 }
