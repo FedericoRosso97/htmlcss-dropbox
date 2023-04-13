@@ -7,6 +7,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+    background-color: blue;
 }
 
 .flex{
@@ -14,10 +15,15 @@ body{
 }
 
 header{
+    background-color: white;
+    padding: 1.5rem;
     justify-content: space-between;
 }
 
 ul{
 
     list-style-type: none;
+    gap: 30px;
+    align-items: center;
+
 }
