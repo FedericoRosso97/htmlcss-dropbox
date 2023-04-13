@@ -110,3 +110,7 @@ ul{
 .box-footer{
     margin: 40px 0;
 }
+
+.main2,.main2-title{
+    border: 1px solid black;
+}
