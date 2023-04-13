@@ -18,9 +18,10 @@ header{
     background-color: white;
     padding: 1.5rem;
     justify-content: space-between;
+    align-items: center;
 }
 
-ul{
+ ul{
 
     list-style-type: none;
     gap: 30px;
@@ -37,14 +38,12 @@ ul{
 
 .jumbotron{
     background-color: lightblue;
+    height: 560px;
 }
 .big-container{
     margin: 0 auto;
     width: 70%;
-}
-
-.jumbo-section-due{
-    display: inline-block;
+    /*padding-top: 2rem;*/
 }
 
 .jumbo-img{
@@ -53,6 +52,15 @@ ul{
 
 .big-container h1{
     font-size: 5rem;
+    padding:2.5rem 0 ;
 
 }
 
+.big-container button{
+    margin-bottom:2rem ;
+}
+
+.big-container p{
+    margin-bottom:2rem ;
+}
+ 
