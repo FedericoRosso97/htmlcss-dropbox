@@ -8,3 +8,16 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+.flex{
+    display: flex;
+}
+
+header{
+    justify-content: space-between;
+}
+
+ul{
+
+    list-style-type: none;
+}
