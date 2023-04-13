@@ -11,6 +11,7 @@ body{
 
 .flex{
     display: flex;
+    flex-direction: row;
 }
 
 header{
@@ -49,3 +50,9 @@ ul{
 .jumbo-img{
     width: 60%;
 }
+
+.big-container h1{
+    font-size: 5rem;
+
+}
+
