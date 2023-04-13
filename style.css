@@ -7,7 +7,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background-color: blue;
 }
 
 .flex{
@@ -33,4 +32,20 @@ ul{
     padding: 0.5em;
     color: white;
     border: none;
+}
+
+.jumbotron{
+    background-color: lightblue;
+}
+.big-container{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.jumbo-section-due{
+    display: inline-block;
+}
+
+.jumbo-img{
+    width: 60%;
 }
