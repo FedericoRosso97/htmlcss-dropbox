@@ -27,3 +27,10 @@ ul{
     align-items: center;
 
 }
+
+.button{
+    background-color: blue;
+    padding: 0.5em;
+    color: white;
+    border: none;
+}
