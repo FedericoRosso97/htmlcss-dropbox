@@ -16,7 +16,6 @@ body{
 
 header{
     background-color: white;
-    padding: 1.5rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -170,9 +169,15 @@ ul{
 footer{
     background-color: black;
     color: white;
+    flex-wrap: wrap;
 }
 
-footer> .big-container
+ .footer-menu
 {
     justify-content: space-between;
+    
+}
+
+footer hr{
+background-color: white;
 }
