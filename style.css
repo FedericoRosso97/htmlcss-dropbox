@@ -47,11 +47,11 @@ header{
 }
 
 .jumbo-img{
-    width: 60%;
+    width: 65%;
 }
 
 .big-container h1{
-    font-size: 5rem;
+    font-size: 4rem;
     padding:2.5rem 0 ;
 
 }
@@ -70,9 +70,13 @@ header{
     padding: 5rem 0;
 }
 
+.main1{
+    justify-content: space-between;
+}
+
 .box{
     border: 1px solid black;
-    width: calc(100%/3);
+    width: calc(95%/3);
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -84,16 +88,16 @@ header{
     padding: 1rem;
 }
 
-.prova{
-    padding: 1rem;
-}
-
 .box-body h2{
     margin-bottom: 20px;
 }
 
 .box-body p{
     margin: 5px;
+}
+
+.prova{
+    padding: 1.5rem;
 }
 
 ul{
@@ -114,3 +118,20 @@ ul{
 .main2,.main2-title{
     border: 1px solid black;
 }
+
+#img-partner{
+    width: 90%;
+}
+
+.main4-row{
+    justify-content: space-between;
+}
+
+.main4-item{
+    width: calc(90%/3);
+}
+
+.main4 img{
+    width: 100%;
+}
+
