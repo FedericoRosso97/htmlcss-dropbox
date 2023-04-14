@@ -139,3 +139,18 @@ ul{
     width: 100%;
 }
 
+.main-bottom img{
+    width: 100%;
+}
+
+.business-box{
+    width:calc(100% / 3) ;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.business{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
