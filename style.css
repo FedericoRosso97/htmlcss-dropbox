@@ -70,6 +70,10 @@ header{
     padding: 5rem 0;
 }
 
+main section{
+    margin: 120px;
+}
+
 .main1{
     justify-content: space-between;
 }
