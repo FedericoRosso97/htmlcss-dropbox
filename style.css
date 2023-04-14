@@ -162,9 +162,17 @@ ul{
     justify-content: space-between;
 }
 
-
-
 .domande *{
     border-bottom:1px solid black;
     padding:3rem 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer> .big-container
+{
+    justify-content: space-between;
 }
