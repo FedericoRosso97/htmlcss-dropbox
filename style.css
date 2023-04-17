@@ -84,9 +84,11 @@ header{
 
 .box-title{
     border-bottom:1px solid black; 
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     padding: 1rem;
+    gap: 5px;
 }
 
 .box-body h2{
@@ -97,7 +99,7 @@ header{
     margin: 5px;
 }
 
-.prova{
+.piani-abbonamento{
     padding: 1.5rem;
 }
 
