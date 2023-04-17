@@ -116,13 +116,49 @@ ul{
     margin: 40px 0;
 }
 
-.main2,.main2-title{
+.main2{
     border: 1px solid black;
 }
 
-#img-partner{
-    width: 90%;
+.main2-title{
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+    gap: 5px;
 }
+
+.main2-body{
+    padding: 1.5rem;
+}
+
+.main2-scritte{
+    width: 70%;
+}
+
+.Enterprise{
+    margin-bottom: 1rem;
+}
+
+.main2-button{
+    flex-direction: column;
+   align-items: flex-end;
+   width:30%;
+}
+
+.ufficio-vendite{
+    margin-bottom: 5rem;
+}
+
+.main3-box{
+    width: 100%;
+}
+
+#img-partner{
+    width: 100%;
+}
+
+
 
 .main4-row{
     justify-content: space-between;
@@ -136,9 +172,8 @@ ul{
     width: 100%;
 }
 
-.main5 h1{
+.titolo{
     font-size: 2.5rem;
-    width: 60%;
     margin-bottom: 3rem;
 }
 
