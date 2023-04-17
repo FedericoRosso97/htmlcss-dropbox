@@ -18,14 +18,13 @@ header{
     background-color: white;
     justify-content: space-between;
     align-items: center;
+    padding: 0 1rem;
 }
 
  ul{
-
     list-style-type: none;
     gap: 30px;
     align-items: center;
-
 }
 
 .button{
@@ -42,7 +41,6 @@ header{
 .big-container{
     margin: 0 auto;
     width: 70%;
-    /*padding-top: 2rem;*/
 }
 
 .jumbo-img{
@@ -67,6 +65,10 @@ header{
     margin: 0 auto;
     width:65% ;
     padding: 5rem 0;
+}
+
+.container section{
+    margin-bottom:100px ;
 }
 
 .main1{
@@ -138,6 +140,16 @@ ul{
     width: 100%;
 }
 
+.business-box:nth-child(2){
+padding: 2rem;
+background-color: red;
+}
+
+.business-box:nth-child(2) img{
+    width: 40%;
+    margin-bottom: 2rem;
+}
+
 .business-box{
     width:calc(100% / 3) ;
     flex-wrap: wrap;
@@ -148,12 +160,16 @@ ul{
     width: 50%;
     height: 50%;
     border: 1px solid black;
-    filter: invert(1);
     background-color: aqua;
+    padding: 4rem 0;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .business img{
-    width: 50%;
+    width: 60%;
+    filter: invert(1);
 }
 
 .main-bottom1{
@@ -161,9 +177,8 @@ ul{
 
 }
 .cta-dropbox{
-    padding: 2rem;
+   /* padding: 2rem;*/
     margin: 0 auto;
-    width: 60%;
     justify-content: space-between;
 }
 
@@ -176,15 +191,26 @@ footer{
     background-color: black;
     color: white;
     flex-wrap: wrap;
-    padding: 2.5rem 0;
+    padding-top: 3.5rem;
 }
 
- .footer-menu
+
+ .footer-lists
 {
     justify-content: space-between;
+    margin-bottom: 3rem;
     
+}
+
+.list li{
+    margin-bottom: 10px;
 }
 
 footer hr{
 background-color: white;
+margin-bottom: 3rem;
+}
+
+.language{
+    margin-bottom: 25px;
 }
