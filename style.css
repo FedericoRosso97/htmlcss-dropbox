@@ -174,12 +174,34 @@ background-color: red;
 
 .main-bottom1{
     background-color: lightblue;
+    padding: 3rem 0;
+}
+
+.main-bottom1 h2{
+    font-size: 2rem;
+    color: rgb(129, 5, 50);
+}
+
+.button-cta{
+    background-color: white;
+    border: none;
+    padding: 0.5rem;
+    width: 60%;
+}
+
+.button-cta-container{
+    flex-direction: column;
+    align-items: flex-end;
 
 }
+
 .cta-dropbox{
-   /* padding: 2rem;*/
-    margin: 0 auto;
     justify-content: space-between;
+}
+
+.cta-dropbox div{
+    width: 40%;
+
 }
 
 .domande div{
@@ -190,15 +212,12 @@ background-color: red;
     font-weight: bold;
 }
 
-
-
 footer{
     background-color: black;
     color: white;
     flex-wrap: wrap;
     padding-top: 3.5rem;
 }
-
 
  .footer-lists
 {
