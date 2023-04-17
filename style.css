@@ -182,10 +182,15 @@ background-color: red;
     justify-content: space-between;
 }
 
-.domande *{
+.domande div{
     border-bottom:1px solid black;
     padding:3rem 0;
+    justify-content: space-between;
+    padding-right: 2.5rem;
+    font-weight: bold;
 }
+
+
 
 footer{
     background-color: black;
