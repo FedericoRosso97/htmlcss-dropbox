@@ -18,7 +18,7 @@ header{
     background-color: white;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
+    padding: 1.5rem 0;
 }
 
  ul{
@@ -43,8 +43,13 @@ header{
     width: 70%;
 }
 
+
+.jumbo-section-img{
+    width: 200%;
+}
+
 .jumbo-img{
-    width: 65%;
+    width: 100%;
 }
 
 .big-container h1{
@@ -103,8 +108,9 @@ header{
     padding: 1.5rem;
 }
 
-ul{
+.piani-abbonamento ul{
     margin: 30px 0;
+
 }
 
 .box-body li{
@@ -195,6 +201,7 @@ background-color: rgb(225, 221, 221);
 
 .business-box{
     width:calc(100vw / 3);
+    height: calc(100vw/ 3);
     flex-wrap: wrap;
 }
 
@@ -302,6 +309,10 @@ footer{
     justify-content: space-between;
     margin-bottom: 3rem;
     
+}
+
+footer h3{
+        margin-bottom: 3rem;
 }
 
 .list li{
