@@ -172,11 +172,31 @@ header{
 }
 
 .main3-box{
-    width: 100%;
+    width: 60%;
+}
+
+.main3-box2{
+    width:40% ;
+    position: relative;
+}
+
+.main3-text{
+    position: absolute;
+    top: 4rem;
+}
+
+.main3-text h1,.main3-text p{
+    margin-bottom: 1.5rem;
+}
+
+.main3-text> button{
+    background-color: white;
+    width: 40%;
+    padding: 1rem 0.5rem;
 }
 
 #img-partner{
-    width: 100%;
+    width: 95%;
 }
 
 
