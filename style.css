@@ -43,6 +43,15 @@ header{
     width: 70%;
 }
 
+.jumbo-section-due{
+    position: relative;
+}
+
+.arrow{
+   position:absolute;
+   bottom:75px;
+   left:0;
+}
 
 .jumbo-section-img{
     width: 200%;
@@ -111,6 +120,10 @@ header{
 .piani-abbonamento ul{
     margin: 30px 0;
 
+}
+
+.icon,.checkbox {
+    margin-right: 0.5rem;
 }
 
 .box-body li{
